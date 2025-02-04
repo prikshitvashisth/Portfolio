@@ -13,7 +13,7 @@ const showMenu = (toggleId, navId) => {
   /*===== ACTIVE AND REMOVE MENU =====*/
   const navLinks = document.querySelectorAll(".nav-link");
   const sections = document.querySelectorAll(".section");
-  
+   
   window.addEventListener("scroll", () => {
     let current = '';
     sections.forEach(section => {
